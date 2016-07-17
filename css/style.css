@@ -4,64 +4,35 @@ body{
 }
 
 div#wrapper{
-    padding:10px 0 70px 0;
     margin:0px auto;
     text-align:left;
     width:100%;
 }
-#header{
-    position:fixed;
-	top:0px;
-    width:100%;
-    z-index:999;
-}
+
 .logo{
-	padding:0 8px 0 0;
-	float: left;
+  position: absolute;
+  padding-top: 10px;
+  float: left;
 }
 
-.county{
-	margin: 4px 0 4px 0;
-	height: 40px
+#right-pane{
+  position: fixed;
+  padding: 20px;
+  right: 0;
+  height: 100%;
+  background-color: rgba(255,255,255,0.6);
+}
+div.right-icon{
+  margin-bottom: 30px;
+}
+.right-icon i {
+    color: #000;
+}
+.right-bottom-icon{
+  position: absolute;
+  bottom: 60px;
 }
 
-.time{
-	margin: 0 0 0 16px;
-	float: left;
-}
-
-/*
-#line_chart{
-	margin: 16px 16px 0 0;
-	background-color: #d0d0d0;
-	width: 48%;
-	height: 400px;
-	float: left;
-	border: 2px;
-	border-color: #666666;
-	overflow: hidden;
-
-}*/
-/*
-#map{
-	margin: 16px 8px 0 0;
-	background-color: #d5d5d5;
-	width: 100%;
-	height: 400px;
-	float: left;
-	border: 2px;
-	border-color: #666666;
-}*/
-/*
-#chart{
-	width:461px;
-	height: 400px;
-	background: #fff;
-}
-*/
-#tiptool{
-	position: absolute;
-}
 div#map iframe {
     width:100%;
     height: 300px;
@@ -72,17 +43,3 @@ div#map iframe {
     top:0;
 }
 
-#headerbg {
-    height:105px;
-    margin-top:-25px;
-    background-color: rgba(255,255,255,0.6);
-}
-
-#headerinn {
-    padding-top:40px;
-    padding-left:17px
-}
-
-#setting {
-    padding-top:8px;
-}
